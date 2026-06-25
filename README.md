@@ -173,7 +173,7 @@ libraryDependencies += "io.github.polentino" %%% "redacted" % redactedVersion cr
 addCompilerPlugin("io.github.polentino" %% "redacted-plugin" % redactedVersion cross CrossVersion.full)
 ```
 
-![Simple example of @redacted usage in Scala JS](demo/redacted-example-scalajs.scala "Scala JS Example")
+![Simple example of @redacted usage in Scala JS](demo/redacted-example-scalajs.gif "Scala JS Example")
 
 
 ## How it works
