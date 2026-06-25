@@ -173,6 +173,9 @@ libraryDependencies += "io.github.polentino" %%% "redacted" % redactedVersion cr
 addCompilerPlugin("io.github.polentino" %% "redacted-plugin" % redactedVersion cross CrossVersion.full)
 ```
 
+![Simple example of @redacted usage in Scala JS](demo/redacted-example-scalajs.scala "Scala JS Example")
+
+
 ## How it works
 
 Given a case class with at least one field annotated with `@redacted`, i.e.
