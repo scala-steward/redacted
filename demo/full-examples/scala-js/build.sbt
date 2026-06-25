@@ -4,7 +4,7 @@ lazy val root = (project in file("."))
   .enablePlugins(ScalaJSPlugin, RedactedPlugin)
   .settings(
     name := "redacted-native",
-    redactedVersion := "0.10.0-SNAPSHOT",
+    redactedVersion := "0.10.0",
     scalaJSUseMainModuleInitializer := true,
     scalaJSLinkerConfig ~= {
       _.withModuleKind(ModuleKind.CommonJSModule)

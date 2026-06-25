@@ -1,5 +1,5 @@
-//> using scala 3.7.3
-//> using dep io.github.polentino:::redacted:0.10.0
+//> using scala 3.8.4
+//> using dep io.github.polentino::redacted:0.10.0
 //> using plugin io.github.polentino:::redacted-plugin:0.10.0
 
 import io.github.polentino.redacted._
